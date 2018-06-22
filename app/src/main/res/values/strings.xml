@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <!-- Category name for sights [CHAR LIMIT=20] -->
+    <string name="category_sights">Sights</string>
+
+    <!-- Category name for food [CHAR LIMIT=20] -->
+    <string name="category_food">Food</string>
+
+    <!-- Category name for events [CHAR LIMIT=20] -->
+    <string name="category_events">Events</string>
+
+    <!-- Category name for emergency info [CHAR LIMIT=20] -->
+    <string name="category_info">Info</string>
+</resources>
