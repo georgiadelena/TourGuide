@@ -6,16 +6,16 @@ package com.example.android.tourguide;
 
 public class Item {
 
-    private String mAbout;
-    private String mAddress;
-    private String mPhone;
+    private static final int NO_IMAGE_PROVIDED = -1;
+    private static final int NO_ADDRESS_PROVIDED = -1;
+    private static final int NO_PHONE_NR_PROVIDED = -1;
+
+    private int mAbout;
+    private int mAddress = NO_ADDRESS_PROVIDED;
+    private int mPhone = NO_PHONE_NR_PROVIDED;
 
     // Image resource ID for the item
     private int mImageResourceId = NO_IMAGE_PROVIDED;
-
-    private static final int NO_IMAGE_PROVIDED = -1;
-    private static final String NO_ADDRESS_PROVIDED = null;
-    private static final String NO_PHONE_NR_PROVIDED = null;
 
     /**
      * Constructor for InfoFragment
@@ -23,7 +23,7 @@ public class Item {
      * @param about is the about info of an item
      * @param phone is the phone number of an item
      */
-    public Item(String about, String phone) {
+    public Item(int about, int phone) {
         mAbout = about;
         mPhone = phone;
     }
@@ -33,7 +33,7 @@ public class Item {
      * @param address is the address of an item
      * @param imageResourceId is the image of an item
      */
-    public Item(String about, String address, int imageResourceId) {
+    public Item(int about, int address, int imageResourceId) {
         mAbout = about;
         mAddress = address;
         mImageResourceId = imageResourceId;
@@ -45,7 +45,7 @@ public class Item {
      * @param phone is the phone number of an item
      * @param imageResourceId is the image of an item
      */
-    public Item(String about, String address, String phone, int imageResourceId) {
+    public Item(int about, int address, int phone, int imageResourceId) {
         mAbout = about;
         mAddress = address;
         mPhone = phone;
@@ -55,21 +55,21 @@ public class Item {
     /**
      * @return the about section of an item
      */
-    public String getAbout() {
+    public int getAbout() {
         return mAbout;
     }
 
     /**
      * @return the address section of an item
      */
-    public String getAddress() {
+    public int getAddress() {
         return mAddress;
     }
 
     /**
      * @return the phone number of an item
      */
-    public String getPhone() {
+    public int getPhone() {
         return mPhone;
     }
 

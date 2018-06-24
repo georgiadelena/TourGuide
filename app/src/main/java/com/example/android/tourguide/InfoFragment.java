@@ -26,9 +26,9 @@ public class InfoFragment extends Fragment {
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item("Police", "100"));
-        items.add(new Item("Ambulance", "166"));
-        items.add(new Item("Fire Brigade", "199"));
+        items.add(new Item(R.string.info_11, R.string.info_12));
+        items.add(new Item(R.string.info_21, R.string.info_22));
+        items.add(new Item(R.string.info_31, R.string.info_32));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.

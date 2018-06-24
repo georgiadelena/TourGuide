@@ -26,10 +26,10 @@ public class EventsFragment extends Fragment {
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item("Thessaloniki International Fair", "Helexpo Centre", R.drawable.ekthesi));
-        items.add(new Item("Thessaloniki International Film Festival", "Pl. Aristotelous 10", R.drawable.filmfestival));
-        items.add(new Item("Thessaloniki Book Fair", "Helexpo Centre", R.drawable.bookfair));
-        items.add(new Item("Street Mode Festival", "Thessaloniki Port", R.drawable.streetmode));
+        items.add(new Item(R.string.events_11, R.string.events_12, R.drawable.ekthesi));
+        items.add(new Item(R.string.events_21, R.string.events_22, R.drawable.filmfestival));
+        items.add(new Item(R.string.events_31, R.string.events_32, R.drawable.bookfair));
+        items.add(new Item(R.string.events_41, R.string.events_42, R.drawable.streetmode));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.

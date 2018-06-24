@@ -12,4 +12,75 @@
 
     <!-- Category name for emergency info [CHAR LIMIT=20] -->
     <string name="category_info">Info</string>
+
+    <string name="sights_11">Byzantine Museum</string>
+    <string name="sights_12">Leof. Stratou 2</string>
+    <string name="sights_13">2313306400</string>
+
+    <string name="sights_21">Archaeological Museum</string>
+    <string name="sights_22">Manoli Andronikou 6</string>
+    <string name="sights_23">2313310201</string>
+
+    <string name="sights_31">White Tower</string>
+    <string name="sights_32">City Centre</string>
+    <string name="sights_33">2310267832</string>
+
+    <string name="sights_41">Arch of Galerius</string>
+    <string name="sights_42">Egnatia 144</string>
+
+    <string name="sights_51">Statue of Alexander the Great</string>
+    <string name="sights_52">City Centre - Leof. Nikis</string>
+
+    <string name="sights_61">Agia Sofia</string>
+    <string name="sights_62">Ag. Sofias, 54622</string>
+
+    <string name="sights_71">Rotunda</string>
+    <string name="sights_72">Egnatia 144</string>
+
+    <string name="sights_81">Castle Area</string>
+    <string name="sights_82">Tsinari - Old Town</string>
+
+    <string name="food_11">Ladadika Area</string>
+    <string name="food_12">City Centre</string>
+
+    <string name="food_21">Elia Lemoni</string>
+    <string name="food_22">Kapodistriou 9, 54625</string>
+    <string name="food_23">2310515881</string>
+
+    <string name="food_31">Agioli</string>
+    <string name="food_32">Leof. Nikis 15</string>
+    <string name="food_33">2310262888</string>
+
+    <string name="food_41">Habanera</string>
+    <string name="food_42">Papandreou 29, 54646</string>
+    <string name="food_43">2310869331</string>
+
+    <string name="food_51">Roots (vegan)</string>
+    <string name="food_52">Mpalanou 4</string>
+    <string name="food_53">2310268063</string>
+
+    <string name="food_61">The Hoppy Pub</string>
+    <string name="food_62">Nikiforou Foka 6</string>
+    <string name="food_63">2310269203</string>
+
+    <string name="events_11">Thessaloniki International Fair</string>
+    <string name="events_12">Helexpo Centre</string>
+
+    <string name="events_21">Thessaloniki International Film Festival</string>
+    <string name="events_22">Pl. Aristotelous 10</string>
+
+    <string name="events_31">Thessaloniki Book Fair</string>
+    <string name="events_32">Helexpo Centre</string>
+
+    <string name="events_41">Street Mode Festival</string>
+    <string name="events_42">Thessaloniki Port</string>
+
+    <string name="info_11">Police</string>
+    <string name="info_12">100</string>
+
+    <string name="info_21">Ambulance</string>
+    <string name="info_22">166</string>
+
+    <string name="info_31">Fire Brigade</string>
+    <string name="info_32">199</string>
 </resources>

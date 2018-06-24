@@ -1,8 +1,5 @@
 package com.example.android.tourguide;
 
-import android.content.Context;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -31,14 +28,14 @@ public class SightsFragment extends Fragment {
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item("Byzantine Museum", "Leof. Stratou 2", "2313306400", R.drawable.byzantine2));
-        items.add(new Item("Archaeological Museum", "Manoli Andronikou 6", "2313310201", R.drawable.amth2));
-        items.add(new Item("White Tower", "City Centre", "2310267832", R.drawable.whitetower));
-        items.add(new Item("Arch of Galerius", "Egnatia 144", R.drawable.galerius));
-        items.add(new Item("Statue of Alexander the Great", "City Centre - Leof. Nikis", R.drawable.alexander));
-        items.add(new Item("Agia Sofia", "Ag. Sofias, 54622", R.drawable.agiasofia));
-        items.add(new Item("Rotunda", "Egnatia 144", R.drawable.rotunda));
-        items.add(new Item("Castle Area", "Tsinari - Old Town", R.drawable.kastra));
+        items.add(new Item(R.string.sights_11, R.string.sights_12, R.string.sights_13, R.drawable.byzantine2));
+        items.add(new Item(R.string.sights_21, R.string.sights_22, R.string.sights_23, R.drawable.amth2));
+        items.add(new Item(R.string.sights_31, R.string.sights_32, R.string.sights_33, R.drawable.whitetower));
+        items.add(new Item(R.string.sights_41, R.string.sights_42, R.drawable.galerius));
+        items.add(new Item(R.string.sights_51, R.string.sights_52, R.drawable.alexander));
+        items.add(new Item(R.string.sights_61, R.string.sights_62, R.drawable.agiasofia));
+        items.add(new Item(R.string.sights_71, R.string.sights_72, R.drawable.rotunda));
+        items.add(new Item(R.string.sights_81, R.string.sights_82, R.drawable.kastra));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.

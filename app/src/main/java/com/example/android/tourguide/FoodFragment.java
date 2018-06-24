@@ -26,12 +26,12 @@ public class FoodFragment extends Fragment {
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item("Ladadika Area", "City Centre", R.drawable.ladadika));
-        items.add(new Item("Elia Lemoni", "Kapodistriou 9, 54625", "2310515881", R.drawable.elialemoni));
-        items.add(new Item("Agioli", "Leof. Nikis 15", "2310262888", R.drawable.agioli));
-        items.add(new Item("Habanera", "Papandreou 29, 54646", "2310869331", R.drawable.habanera));
-        items.add(new Item("Roots (vegan)", "Mpalanou 4", "2310268063", R.drawable.roots));
-        items.add(new Item("The Hoppy Pub", "Nikiforou Foka 6", "2310269203", R.drawable.hoppypub));
+        items.add(new Item(R.string.food_11, R.string.food_12, R.drawable.ladadika));
+        items.add(new Item(R.string.food_21, R.string.food_22, R.string.food_23, R.drawable.elialemoni));
+        items.add(new Item(R.string.food_31, R.string.food_32, R.string.food_33, R.drawable.agioli));
+        items.add(new Item(R.string.food_41, R.string.food_42, R.string.food_43, R.drawable.habanera));
+        items.add(new Item(R.string.food_51, R.string.food_52, R.string.food_53, R.drawable.roots));
+        items.add(new Item(R.string.food_61, R.string.food_62, R.string.food_63, R.drawable.hoppypub));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
